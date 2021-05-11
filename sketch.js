@@ -11,7 +11,7 @@ function setup() {
 
   for (let i=0; i<ocean; i++) {
     for (let j=0; j<ocean; j++) {
-      waves.push(new Dancer(i*w/ocean+100, j*h/ocean+100, 600/(2*ocean),0.05,12*(j+i*i)))
+      waves.push(new Dancer(i*w/ocean+100, j*h/ocean+100, 600/(2*ocean),0.05,12*(j*j+i*i)))
     }
   }
 }
