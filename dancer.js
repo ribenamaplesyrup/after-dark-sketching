@@ -34,7 +34,7 @@ class Dancer {
     rect(this.cx-this.d, this.pos.y, this.pos.x-this.cx+this.d, this.cy+this.d-this.pos.y);
 
     a = (this.cx+this.d-this.pos.x)*(this.pos.y-this.cy+this.d)
-    c = color(255,a/2,a/2)
+    c = color(255,a/2,a/1.9)
     fill(c)
     rect(this.pos.x, this.cy-this.d, this.cx+this.d-this.pos.x, this.pos.y-this.cy+this.d);
 
